@@ -6,7 +6,7 @@ List<ProductModel> productItems = [
   // Product List 1
   ProductModel(
     pid: 1,
-    imgUrl: 'assets/products/airpods.jpg',
+    imgUrl: 'assets/product/airpods.jpg',
     title: 'AirPods Max',
     price: 599,
     rating: 1,
@@ -19,7 +19,7 @@ List<ProductModel> productItems = [
   // Product List 2
   ProductModel(
     pid: 2,
-    imgUrl: 'assets/products/macbook.jpg',
+    imgUrl: 'assets/product/macbook.jpg',
     title: 'MacBook Pro laptop',
     price: 3415,
     rating: 5.0,
@@ -32,7 +32,7 @@ List<ProductModel> productItems = [
   // Product List 3
   ProductModel(
     pid: 3,
-    imgUrl: 'assets/products/magic.jpg',
+    imgUrl: 'assets/product/magic.jpg',
     title: 'Magic Wireless',
     price: 255,
     rating: 4.8,
@@ -45,7 +45,7 @@ List<ProductModel> productItems = [
   // Product List 4
   ProductModel(
     pid: 4,
-    imgUrl: 'assets/products/pixel7.jpg',
+    imgUrl: 'assets/product/pixel7.jpg',
     title: 'Google Pixel 7 Pro',
     price: 255,
     rating: 4,
@@ -58,7 +58,7 @@ List<ProductModel> productItems = [
   // Product List 5
   ProductModel(
     pid: 5,
-    imgUrl: 'assets/products/yoga.jpg',
+    imgUrl: 'assets/product/yoga.jpg',
     title: 'Lenova Yoga Duet',
     price: 750,
     rating: 2,
@@ -71,7 +71,7 @@ List<ProductModel> productItems = [
   // Product List 6
   ProductModel(
     pid: 6,
-    imgUrl: 'assets/products/zfold.jpg',
+    imgUrl: 'assets/product/zfold.jpg',
     title: 'Galaxy Z Fold3',
     price: 2500,
     rating: 5,
@@ -84,7 +84,7 @@ List<ProductModel> productItems = [
   // Product List 7
   ProductModel(
     pid: 7,
-    imgUrl: 'assets/products/ipad.jpg',
+    imgUrl: 'assets/product/ipad.jpg',
     title: 'Apple iPad Pro',
     price: 1200,
     rating: 5,
@@ -97,7 +97,7 @@ List<ProductModel> productItems = [
   // Product List 8
   ProductModel(
     pid: 8,
-    imgUrl: 'assets/products/iphone.jpg',
+    imgUrl: 'assets/product/iphone.jpg',
     title: 'Apple iPhone 14 Pro Max',
     price: 1600,
     rating: 3,
@@ -110,7 +110,7 @@ List<ProductModel> productItems = [
   // Product List 9
   ProductModel(
     pid: 9,
-    imgUrl: 'assets/products/watch.jpg',
+    imgUrl: 'assets/product/watch.jpg',
     title: 'Apple Watch Series 8',
     price: 480,
     rating: 2,
@@ -123,7 +123,7 @@ List<ProductModel> productItems = [
   // Product List 10
   ProductModel(
     pid: 10,
-    imgUrl: 'assets/products/logic.jpg',
+    imgUrl: 'assets/product/logic.jpg',
     title: 'Logitech MX Master 3S',
     price: 87,
     rating: 4,

@@ -1,5 +1,7 @@
-import 'package:ecommerceappriverpod/views/home_page/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'views/riverpod_all_course/basic_riverpod.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,9 +12,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomePage(),
+    return ProviderScope(
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: CounterScreen(),
+      ),
     );
   }
 }
