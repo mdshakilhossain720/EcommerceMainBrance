@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 import 'views/riverpod_all_course/basic_riverpod.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  // hive
+   await Hive.initFlutter();
+
+  // open a box
+  await Hive.openBox('mybox');
+  
   runApp(const MainApp());
 }
 
